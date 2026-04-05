@@ -1,0 +1,30 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# Azure Functions local settings (contains secrets)
+local.settings.json
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# Terraform
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfstate.*.backup
+.terraform/
+.terraform.lock.hcl
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
